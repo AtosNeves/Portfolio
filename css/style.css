@@ -1,0 +1,607 @@
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: gray;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: white;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+header {
+    background-size:auto ;
+    background: url("../img/back.jpg") center center fixed no-repeat ;
+    z-index: 100;
+    position:relative;
+    width: 100%;
+    height: 1008px;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+nav{
+    position: fixed;
+
+    width: 100%;
+    background: #000000;
+    height: 40px;
+    z-index: 100;
+
+}
+nav{
+
+}
+
+
+#banner{
+    z-index: -1;
+}
+ul{
+    display: inline-block;
+    float: right;
+    width: 1000px;
+
+
+}
+ul li {
+
+    font-family: 'Cutive Mono', monospace;
+    margin: 13px 2%;
+    display: inline-block;
+    float: right;
+    color: #e3dfdf;
+    padding-left: 20px;
+    transition: color 1s;
+    z-index: 1;
+    font-size: large;
+
+}
+li:hover{
+
+    color: white;
+    font-palette: dark;
+
+    cursor: pointer;
+
+
+
+
+
+}
+li:first-child{
+    padding-right: 30px;
+}
+
+/*-----------------------*/
+#banner{
+    width: 100%;
+
+    position:absolute;
+    height: 928px;
+}
+#atos{
+    position: relative;
+    margin-top: 20%;
+    font-family: 'Rajdhani', sans-serif;
+    letter-spacing: 25px;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+
+}
+#atosSub{
+    position: relative;
+    margin-top: 4%;
+    font-family: 'Rajdhani', sans-serif;
+    color: lightgray;
+    font-size: 25px;
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+
+
+
+
+.entrada1{
+    position:relative;
+
+    width:90%;
+    height: 500px;
+    margin: 0 auto;
+
+
+
+
+}
+#sobre-mim{
+    left:5%;
+}
+.entrada3{
+    position:relative;
+
+    width:90%;
+    height: 300px;
+    margin: 0 auto;
+
+
+
+
+}
+.portfolio-div{
+    position:relative;
+    width:100%;
+    height: 500px;
+    margin: 0 auto;
+
+
+
+
+}
+.linha{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+}
+.titulo-sec{
+    letter-spacing: 3px;
+    position: relative;
+
+    padding-top: 5%;
+    margin-bottom: 1%;
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 2em;
+
+}
+#titulo-port{
+    position: relative;
+    text-align: center;
+    margin-bottom: 3%;
+
+
+}
+#titulo-sec{
+
+    width: 90%;
+    padding-bottom: 20px;
+}
+
+.portfolio-texto{
+
+    display: inline-flex;
+    vertical-align: center;
+    width: 28%;
+    overflow-wrap: anywhere;
+    padding: 2% 0;
+    word-spacing:-2px;
+    margin-right: 5%;
+    margin-top: 20px;
+    right: 90px;
+    margin-bottom: .01%;
+
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5vw ;
+    text-align: left;
+    height: 50%;
+}
+.blocos{
+    position: relative;
+    width: 90%;
+    margin: 0 auto;
+
+
+}
+.portfolios-bloco{
+    width: 100%;
+    z-index: 0;
+}
+#efeito{
+    font-family: 'Cutive Mono', monospace;
+    font-size: 2vw;
+    text-align: left;
+
+}
+#citacao{
+    width: 9%;
+    font-family: 'Cutive Mono', monospace;
+    bottom:30px;
+    font-size: 1vw;
+    text-align: center;
+    background: lightgray;
+
+}
+
+hr{
+    background: gray;
+    top: 2%;
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+    z-index: 0;
+}
+
+.blocos2{
+
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.portfolios{
+
+    position: center;
+    display: inline-block;
+    vertical-align: center;
+    width: 31%;
+    overflow-wrap: anywhere;
+    padding: 8% 1%;
+    margin-right: 0.01%;
+
+    right: 90px;
+
+    background: dimgray;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1.5vw ;
+    text-align: left;
+    height: 10%;
+}
+#uri{
+
+    background: url("http://2.bp.blogspot.com/-NUevUKTYhdc/VLrx4-PbbhI/AAAAAAAABi4/Fjxx1_1q_hU/s1600/URI.png") white center no-repeat ;
+
+
+    transition: 1s;
+
+}
+
+
+.portfolios:hover{
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,.60);
+    border-radius: 15px;
+    transition: 1.5s;
+
+}
+
+#encriptador{
+    background: url("../img/portfolio2.png")  center no-repeat ;
+    background-size: cover;
+
+
+}
+.middle{
+    width: 100%;
+    height: 500px;
+    background: url("../img/1234.jpg")  fixed center;
+
+
+
+}
+#quote{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    top:22%;
+    left:13%;
+
+
+}
+
+#texto-quote{
+    width: 70%;
+    height: 20%;
+
+    margin: 5% auto 0;
+    font-family: 'Exo 2', sans-serif;
+    font-size: 2.5vw;
+    text-align: center;
+    color: white;
+}
+.einstein{
+    top: 5%;
+    left: 70%;
+    width: 200px;
+    height: 30px;
+    position: relative;
+    font-size: 30px;
+    z-index: 0;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+}
+
+
+.icones{
+    position: relative;
+    z-index: -1;
+
+    width: 90%;
+    height: 100px;
+    margin: 50px auto;
+
+}
+.icons{
+    width: 10%;
+    height: 100%;
+    background: forestgreen no-repeat ;
+    top: 50%;
+
+    background-size: contain;
+    display: inline-block;
+    margin-right: 2%;
+}
+
+#spring{
+
+
+    background: url("../img/spring.png")  no-repeat;
+    background-size: contain;
+
+}
+#java{
+
+    background: url("../img/java.png")no-repeat;
+    background-size: contain ;
+
+}
+
+#git{
+
+    background: url("../img/git.png") no-repeat;
+    background-size: contain;
+
+}
+.contato{
+    position: relative;
+    height: 600px;
+    width: 60%;
+    max-height: content-box;
+    margin: 50px auto;
+    overflow-y: revert;
+}
+.teste{
+    top: initial ;
+    background: blue;
+    position:relative;
+    width: 100%;
+    height:100px;
+}
+.titulo-contato{
+    padding-top: 50px;
+    height: 90px;
+
+    top: 9%;
+    text-align: center;
+
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1.5vw ;
+
+
+}
+.contato-textos{
+    display: inline-block;
+}
+.contatos-icones img{
+    width: 32px;
+    height: 32px;
+    position: center;
+    align-content: center;
+    padding-bottom: 6%;
+
+}
+
+.contatos-icones-id{
+    padding: 20px 20px;
+    margin: 0 auto;
+    overflow: clip;
+
+}
+#arroba{
+    position: relative;
+    top: 8px;
+}
+.contatos-icones{
+    padding: 20px 20px;
+    display: flex;
+    width: 90%;
+    height: 80px;
+
+    margin: 0 auto;
+
+}
+
+.contato-banner{
+
+    margin: 0 auto;
+    padding: 5px 10px;
+    font-family: 'Bubbler One', sans-serif;
+    letter-spacing: 3px;
+    color: gray;
+    font-size: 1.2vw;
+
+}
+.contato-info{
+
+    margin: 0 auto;
+    padding: 5px 10px;
+    font-family: 'Titillium Web', sans-serif;
+    letter-spacing: 3px;
+    color: black;
+    font-size: 1vw;
+
+}
+.form-div{
+    top: 30px;
+    padding-top: 20px;
+    width: 100%;
+    position: relative;
+
+    min-height: content-box;
+
+    margin: 10px auto;
+    display: inline-block;
+    overflow-y: auto;
+
+
+
+}
+.form-div div{
+    display: inline-block;
+    vertical-align: top;
+}
+.inputs{
+    display: table;
+
+    width: 50%;
+    height: 150px;
+
+
+
+}
+
+.informacoes{
+
+    width: 80%;
+    height: 30px;
+    margin-top: 2%;
+    right: 40%;
+    margin-left: 13%;
+    padding: 5px 15px;
+
+
+    border: 1px solid lightgrey ;
+}
+.message{
+
+
+    height: 190px;
+    width:43%;
+
+
+
+
+
+
+
+}
+textarea{
+    position: relative;
+    resize: none;
+    margin-top: 2%;
+    margin-right: 0;
+    width: 93% ;
+    height: 34%;
+    overflow-y: auto;
+
+    border: 1px solid lightgrey ;
+    padding: 15px 15px;
+
+
+}
+textarea::placeholder{
+    letter-spacing: 2px;
+
+}
+
+.informacoes:hover, textarea:hover{
+
+    border-color: lightslategray;
+    transition: 0.3s;
+    box-shadow:  0 1px 4px 0 darkgray;
+
+
+}
+.informacoes:focus, textarea:focus{
+
+    border-color: darkgray;
+    border-width: 1px;
+
+
+
+
+}
+
+.botao{
+    position: relative;
+    top: 16px;
+    float: right;
+    width: 200px;
+    height: 40px;
+    background-color: #22272c;
+    border-width:0;
+    color: gainsboro  ;
+}
+.botao:hover{
+   background:gray;
+    transition: 0.5s;
+}
+
+footer{
+
+    width: 100%;
+    background: url("https://img.freepik.com/free-photo/calathea-orbifolia-natural-leaves-background_53876-98363.jpg?t=st=1651319379~exp=1651319979~hmac=e944cfa16e16855469547a33f91ab269e5748867cf1ece3902df59dd8ffa5950&w=1380") no-repeat;
+    background-size: cover ;
+    height: 300px;
+    position: relative;
+
+
+
+
+}
+
+footer ul{
+    display: inline-flex;
+
+    position: relative;
+    margin: auto auto;
+    top: 50%;
+    float: left;
+    height: content-box;
+    background: red;
+}
+footer li{
+
+    height: 20px;
+}
+
+#instagram-footer{
+    background: url("https://img.icons8.com/ios-glyphs/344/ffffff/instagram-new.png") no-repeat;
+    background-size: contain;
+}
+
+#linkedin-footer{
+    background: url("https://img.icons8.com/ios-glyphs/344/ffffff/linkedin.png") no-repeat;
+    background-size: contain;
+}
+#github-footer{
+    background: url("https://img.icons8.com/ios-glyphs/344/ffffff/linkedin.png") no-repeat;
+    background-size: contain;
+}
+@media screen and (max-width: 425px) {
+    footer, header{
+        position:relative;
+        height: 500px;
+        width: 100%;
+        margin-bottom: 5px;
+
+    }
+    .portfolio-texto{
+        width: 100%;
+        margin-bottom: 1%;
+    }
+    .blocos{
+        height: 50px;
+
+    }
+    hr{
+        position: relative;
+    }
+}
