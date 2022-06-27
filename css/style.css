@@ -3,7 +3,6 @@ body{
 }
 .entrada{
 
-
     width: 100%;
     height: calc(100vh);
     background: url("../img/entrada.jpg") right fixed no-repeat;
@@ -22,6 +21,10 @@ body{
     width: 35px;
     height: 35px;
     transform:rotate(45deg);
+    background: url("../img/arrow.gif")  white no-repeat center;
+    background-size: contain;
+    border: 0 solid;
+
 }
 
 .flex{
@@ -54,15 +57,19 @@ header{
 
 }
 .nav-bar{
+    font-family: 'Rajdhani', sans-serif;
     position: fixed;
     display: flex;
-    width: 40%;
+    width: 30%;
     align-items: center;
     justify-content: flex-end;
     height: 60px;
     background: black;
     z-index: 100;
 
+
+}
+.nav-bar:{
 
 }
 .barra-menu{
@@ -76,16 +83,19 @@ header{
 
 }
 .entrada-nomes{
+    flex-shrink: 2;
     display: flex;
     align-items: center;
     flex-direction: column;
     justify-content: space-around;
     height: 150px;
+
    // background: gray;
 
 }
 .nome-atos{
-    font-size: 80px;
+
+    font-size: 5rem;
     font-family: 'Rajdhani', sans-serif;
     color: white;
 
