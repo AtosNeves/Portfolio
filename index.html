@@ -3,8 +3,11 @@
 <head>
       <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@1,100&display=swap" rel="stylesheet">
       <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@300&display=swap" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
       <link rel="stylesheet" href="css/reset.css">
       <link rel="stylesheet" href="css/style.css">
+      <link rel="stylesheet" href="css/class-js.css">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <meta charset = "UTF-8">
       <title>Title</title>
@@ -30,7 +33,7 @@
 	</header>
       <div class="flex">
       <div class="entrada-nomes">
-	    <h1 class="nome-atos nomes">ATOS NEVES</h1>
+	    <h1 class="nome-atos nomes" id="atosneves">ATOS NEVES</h1>
 	    <h1 class="nome-engenheiro nomes">SOFTWARE ENGINEER
 		
 	    </h1>
@@ -38,14 +41,14 @@
      
       </div>
 	    <div id="caixa-botao">
-		  <button type="button" id="botao-scroll"> </button>
+		  <button type="button" id="botao-scroll" onclick="go()" > </button>
 	    </div>
       </div>
      
 </section>
 <section class="container-reduzido">
 
-      <div class="container-sobre-mim">
+      <div class="container-sobre-mim" id="container-sobre-mim">
 	    <div class="coluna">
 	    <div class="sobre-mim-titulo">SOBRE MIM</div>
 	    <div class="container-blocos">
@@ -53,11 +56,11 @@
 		 É que a ciência ainda é muito jovem para compreender.</div>
 	    
      
-	    <div class="caixas-sobre">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+	    <div class="caixas-sobre" id="caixa-sobre2">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 		 In maximus ligula semper metus pellentesque mattis.
 		 Maecenas volutpat, diam enim sagittis quam, id porta quam.
 		 Sed id dolor consectetur fermentum nibh volutpat, accumsan purus.</div>
-	    <div class="caixas-sobre">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus
+	    <div class="caixas-sobre" id="caixa-sobre3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. In maximus
 		 ligula semper metus pellentesque mattis. Maecenas volutpat,
 		 diam enim sagittis quam, id porta quam. Sed id dolor consectetur
 		 fermentum nibh volutpat, accumsan purus.</div>
@@ -81,14 +84,14 @@
       <div class="sobre-mim-titulo">TECNOLOGIAS</div>
 	    <div class="container-tecnologias">
 		  
-		  <div class="tecnologias-logo">asdad</div>
-		  <div class="tecnologias-logo">asdad</div>
-		  <div class="tecnologias-logo">asdad</div>
-		  <div class="tecnologias-logo">asdad</div>
-		  <div class="tecnologias-logo">asdad</div>
-		  <div class="tecnologias-logo">asdad</div>
-		  <div class="tecnologias-logo">asdad</div>
-		  <div class="tecnologias-logo">asdad</div>
+		  <div class="tecnologias-logo" id="div-html"></div>
+		  <div class="tecnologias-logo" id="div-css"></div>
+		  <div class="tecnologias-logo" id="div-js"></div>
+		  <div class="tecnologias-logo" id="div-git"></div>
+		  <div class="tecnologias-logo" id="div-github"></div>
+		  <div class="tecnologias-logo" id="div-java"></div>
+		  <div class="tecnologias-logo" id="div-spring"></div>
+		  
 		  
 	    
 	    	<hr>
@@ -101,7 +104,23 @@
    
       <hr>
 </div>
-
-<!--<script src="js/script.js"></script>-->
+<footer>
+     
+	    <div class="footer-nome footers" >Atos Neves</div>
+	    <div class="footer-frase footers">Toda solidão pode ser liberdade e essa liberdade pode ser solitude.</div>
+	    <div class="footer-redes footers">
+		  
+		  <div class="redes" id="linkedin"></div>
+		  <div class="redes"></div>
+		  <div class="redes"></div>
+		  <div class="redes"></div>
+		  <div class="redes"></div>
+	    </div>
+      
+      <div class="last-footer">SEGURA A BRONCA</div>
+      
+</footer>
+<script src="js/script.js"></script>
+<script src="js/entrada-efeito.js"></script>
 </body>
 </html>

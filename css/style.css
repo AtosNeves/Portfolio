@@ -1,11 +1,11 @@
 body{
-    height: 9000px;
+   // height: 9000px;
 }
 .entrada{
 
     width: 100%;
     height: calc(100vh);
-    background: url("../img/entrada.jpg") right fixed no-repeat;
+    background: url("../img/entrada2.jpg") right fixed no-repeat;
     background-size: cover  ;
 }
 #caixa-botao{
@@ -51,9 +51,9 @@ header{
     position: fixed;
     justify-content: flex-end;
     width: 100%;
-    height: 60px;
-    background: black;
-
+    height: 50px;
+    background:transparent;
+    z-index: 10;
 
 }
 .nav-bar{
@@ -63,20 +63,18 @@ header{
     width: 30%;
     align-items: center;
     justify-content: flex-end;
-    height: 60px;
-    background: black;
+    height: 50px;
+   // background: green;
     z-index: 100;
 
 
 }
-.nav-bar:{
 
-}
 .barra-menu{
     color: white;
     display: flex;
     width: 100%;
-    height: 40px;
+    height: 50px;
     align-items: center;
     justify-content: space-around;
     align-content:flex-end;
@@ -89,9 +87,17 @@ header{
     flex-direction: column;
     justify-content: space-around;
     height: 150px;
-
+    animation: anima 2s;
    // background: gray;
 
+}
+@keyframes anima {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 100%;
+    }
 }
 .nome-atos{
 
@@ -108,7 +114,7 @@ header{
 
 .container-reduzido{
 
-    width: 80%;
+    width: 70%;
     height: 400px;
     margin: 20px auto;
    //background: gray;
@@ -124,12 +130,12 @@ header{
     font-size: 35px;
     font-family: 'Rajdhani', sans-serif;
     padding-top: 20px;
-   // background: pink;
+   //background: pink;
     //padding-bottom: 20px;
 }
 .container-sobre-mim{
     display: flex;
-
+    opacity: 0;
     width: 100%;
     height: 90%;
     align-items: center;
@@ -142,6 +148,7 @@ header{
     width: 30%;
     height: 70%;
    // background: green;
+    opacity: 0;
 }
 .container-blocos{
     display: flex;
@@ -223,7 +230,7 @@ margin: 0 auto;
 
    // justify-content: space-between;
     align-items: center;
-    background: green;
+    //background: green;
     height: 200px;
 
 }
@@ -235,4 +242,98 @@ margin: 0 auto;
     margin: auto;
     align-items: center;
    justify-content: space-around;
+}
+#div-html{
+    background: url("../img/iconeHTML.svg") transparent center no-repeat ;
+    background-size: cover;
+
+
+}
+#div-css{
+    background: url("../img/iconeCSS.svg") transparent center no-repeat ;
+    background-size: cover;
+
+}
+#div-js{
+    background: url("../img/iconeJS.svg") transparent center no-repeat ;
+    background-size: cover;
+
+}
+#div-git{
+    background: url("../img/iconeGIT.svg") transparent center no-repeat ;
+    background-size: cover;
+
+}
+#div-github{
+    background: url("../img/iconeGITHUB.svg") transparent center no-repeat ;
+    background-size: cover;
+
+}
+#div-java{
+    background: url("../img/iconeJAVA.svg") transparent center no-repeat ;
+    background-size: cover;
+
+}
+#div-spring{
+    background: url("../img/iconeSPRING.svg") transparent center no-repeat ;
+    background-size: cover;
+
+}
+.tecnologias-animation-class{
+    animation: tecnologias-animacao 1s forwards;
+
+}
+@keyframes tecnologias-animacao {
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to{
+        opacity: 100;
+    }
+}
+
+footer{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    background:#0f0e17;
+    justify-content: space-between;
+
+}
+.footers{
+    display: flex;
+    justify-content:space-around;
+    align-items:center ;
+    //background: pink;
+    height: 20%;
+}
+.footer-nome{
+    font-family: 'Lobster', cursive;
+}
+.footer-redes{
+    margin: 20px auto;
+    align-items: center;
+    width: 30%;
+    //height: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+.redes{
+    width: 5%;
+   height: 100%;
+    background: black;
+}
+.last-footer{
+    display: flex;
+    justify-content: center;
+    height: 40px;
+    background: black;
+    color: white;
+    align-items: center;
+}
+#linkedin{
+    background: url("../img/icons-rodape/linkedin.png") no-repeat center;
+    background-size: cover;
 }
