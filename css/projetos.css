@@ -1,0 +1,58 @@
+.container-projetos{
+    display: flex;
+    margin: 20px auto;
+    //background: pink;
+    width: 90vw;
+    height: calc(60vh);
+
+}
+#URI:hover{
+    animation: projetinhos-animation 0.5s forwards;
+    cursor: url(../img/cursor-click.png) 2 1, auto ;
+}
+#URI{
+    display: flex;
+    flex-shrink: 5;
+    margin: 10px;
+    width:60%;
+    height: available;
+    background: green;
+    background: url("../img/bee.jpg") no-repeat center;
+    background-size: cover;
+
+}
+#hackerrank{
+    background: url("../img/HackerRank.png") no-repeat center;
+    background-size: cover;
+}
+#p1{
+    background: url("../img/p1.png") no-repeat center;
+    background-size: cover;
+}
+#p2{
+    background: url("../img/p2.png") no-repeat center;
+    background-size: cover;
+}
+
+.projetinhos:hover{
+    cursor: url(../img/cursor-click.png) 2 1, auto ;
+   animation: projetinhos-animation 0.5s forwards;
+}
+@keyframes projetinhos-animation {
+    to{
+        animation: 0.5s;
+        transform: scale(1.03);
+    }
+}
+.projetos-colunas{
+    display: flex;
+    flex-direction: column;
+    width:40% ;
+}
+
+.projetinhos{
+    margin: 10px;
+    width: available;
+    height: 50% ;
+    background: red ;
+}

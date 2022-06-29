@@ -111,7 +111,9 @@ header{
     font-family: 'Rajdhani', sans-serif;
     color: white;
 }
-
+#id-projetos{
+    height: 50px;
+}
 .container-reduzido{
 
     width: 70%;
@@ -292,6 +294,110 @@ margin: 0 auto;
         opacity: 100;
     }
 }
+#fale-comigo{
+    display: flex;
+    flex-direction: column;
+
+     align-items: center;
+
+
+    //background:red ;
+    height: 800px;
+
+}
+.fale-comigo-titulo{
+
+
+    font-size: 35px;
+    font-family: 'Rajdhani', sans-serif;
+    padding-top: 20px;
+//background: pink;
+//padding-bottom: 20px;
+}
+.itens-contato{
+
+   // margin: 10px auto;
+    width: 80%;
+    height: 100px;
+    background: green;
+    margin-bottom: 10px;
+
+}
+input{
+    border: 1px solid gray;
+    padding: 2px 3px;
+}
+#mensagem-caixa{
+    padding: 9px 9px;
+    flex-wrap: wrap;
+}
+.div-do-botao{
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+    /*height: 20px;*/
+    /*background: blue;*/
+}
+.enviar{
+    width: 100px;
+}
+
+.fale-comigo-areas{
+    display: flex;
+    height: 80px;
+    width: 100%;
+   // background: yellow;
+    justify-content: center;
+
+}
+.duas-caixas{
+    margin-right: 5px;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    //background: gray;
+    justify-content: space-between;
+
+    width: 20%;
+}
+.caixa-contato{
+    align-items: center;
+
+   margin: auto 0;
+    width: 20%;
+    height: 80px;
+   // background: blue;
+
+}
+
+
+.texto-entradas-linhas{
+height: 34px;
+    margin-bottom: 3px;
+
+width: 98%;
+
+}
+.mensagem {
+    margin-left: 5px;
+    width:94%;
+    resize: horizontal;
+    height: 80%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 footer{
     color: white;
