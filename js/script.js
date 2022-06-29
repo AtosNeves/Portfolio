@@ -55,26 +55,25 @@ window.addEventListener("scroll",function (event) {
 	//
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	console.log(scrollTop);
 });
 
+
+
+
+
+
+
+function redirectChallenge2(event){
+	location.href ="https://atosneves.github.io/Challenge-2/";
+}
+function redirectChallenge1(event){
+	location.href ="https://atosneves.github.io/Encryptador/";
+}
+function redirectHackerRank(event){
+	location.href ="https://github.com/AtosNeves/Beecrowd";
+}
+
+function redirectUri(event){
+	location.href ="https://github.com/AtosNeves/HackerRank";
+}

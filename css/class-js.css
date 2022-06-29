@@ -8,12 +8,14 @@
     transition: 0.3s;
 
     background: black;
+    border-bottom: 1px white solid;
 }
 
 .menu-comprimido{
     transition: 0.3s;
     background: transparent;
     height: 70px;
+
 }
 .menu-extendido{
 

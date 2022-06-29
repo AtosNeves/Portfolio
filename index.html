@@ -18,14 +18,14 @@
 <section class="entrada" id="entrada-principal">
 	<header>
 	   <div class="barra-preta">
-		 
+		
       		<nav class="nav-bar">
 	    		<ul class="barra-menu">
-			      <li>SOBRE</li>
-			      <li>TECNOLOGIAS</li>
-			      <li>PROJETOS</li>
-			      <li>CONTATO</li>
-			      <li>HOME</li>
+			      <li><a href="#container-sobre-mim">SOBRE</a></li>
+			      <li><a href="#tencologias-div">TECNOLOGIAS</a></li>
+			      <li><a href="#id-projetos">PROJETOS</a></li>
+			      <li><a href="#fale-comigo">CONTATO</a></li>
+			      <li><a href="#">HOME</a></li>
 	   		 </ul>
 		</nav>
 		
@@ -80,7 +80,7 @@
 	    </div>
       </div>
 </div>
-<div class="container-reduzido">
+<div class="container-reduzido" id="tencologias-div">
       <hr>
       <div class="sobre-mim-titulo">TECNOLOGIAS</div>
 	    <div class="container-tecnologias">
@@ -108,11 +108,11 @@
       
 </div>
 <section class="container-projetos">
-      <div id="URI"> </div>
+      <div id="URI" onclick="redirectUri()"> </div>
       <div class="projetos-colunas">
-	    <div class="projetinhos" id="hackerrank"></div>
-	    <div class="projetinhos" id="p1"></div>
-	    <div class="projetinhos" id="p2"></div>
+	    <div class="projetinhos" id="hackerrank" onclick="redirectHackerRank()"></div>
+	    <div class="projetinhos" id="p1" onclick="redirectChallenge1()"></div>
+	    <div class="projetinhos" id="p2" onclick="redirectChallenge2()"></div>
 	   
       </div>
      

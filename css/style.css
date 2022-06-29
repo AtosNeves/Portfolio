@@ -1,12 +1,28 @@
 body{
    // height: 9000px;
 }
+.bug{
+    position: absolute;
+    left:10px;
+    background-size: cover;
+    background: url("../img/iconMenu.png") no-repeat center;
+   width:50px;
+    height:40px;
+}
 .entrada{
 
     width: 100%;
     height: calc(100vh);
-    background: url("../img/entrada2.jpg") right fixed no-repeat;
+    background: url("../img/entrada2.jpg") center fixed no-repeat;
     background-size: cover  ;
+}
+a {
+    text-decoration: none;
+
+}
+a:visited{
+    text-decoration: none;
+    color: white;
 }
 #caixa-botao{
 
