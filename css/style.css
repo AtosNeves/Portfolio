@@ -295,22 +295,25 @@ margin: 0 auto;
     }
 }
 #fale-comigo{
+    background:rgb(238, 238, 238);, 1;
+   // margin-top: 50px ;
     display: flex;
     flex-direction: column;
+    justify-content: center;
 
      align-items: center;
-
+    height: 350px;
 
     //background:red ;
-    height: 800px;
+   // height: 300px;
 
 }
 .fale-comigo-titulo{
 
-
+    margin-bottom: 80px;
     font-size: 35px;
     font-family: 'Rajdhani', sans-serif;
-    padding-top: 20px;
+    //padding-top: 20px;
 //background: pink;
 //padding-bottom: 20px;
 }
@@ -320,12 +323,16 @@ margin: 0 auto;
     width: 80%;
     height: 100px;
     background: green;
-    margin-bottom: 10px;
+   // margin-bottom: 10px;
 
 }
 input{
     border: 1px solid gray;
     padding: 2px 3px;
+}
+
+textarea{
+
 }
 #mensagem-caixa{
     padding: 9px 9px;
@@ -339,12 +346,32 @@ input{
     /*background: blue;*/
 }
 .enviar{
+    margin: 5px 0;
     width: 100px;
+    height: 30px;
+    border: 0 solid;
+    background: black;
+    color: white;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: #0f0e17;
+}
+
+
+.enviar:hover{
+    animation: anima-botao 0.3s forwards;
+
+}
+@keyframes anima-botao {
+    to {
+        background: gray;
+        transform: scale(1.02);
+    }
 }
 
 .fale-comigo-areas{
     display: flex;
-    height: 80px;
+    height: 82px;
     width: 100%;
    // background: yellow;
     justify-content: center;
@@ -360,8 +387,7 @@ input{
 
     width: 20%;
 }
-.caixa-contato{
-    align-items: center;
+.caixa-contato{align-items: center;
 
    margin: auto 0;
     width: 20%;
@@ -382,7 +408,7 @@ width: 98%;
     margin-left: 5px;
     width:94%;
     resize: horizontal;
-    height: 80%;
+    height: 62px;
 }
 
 
