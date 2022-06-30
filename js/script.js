@@ -55,7 +55,7 @@ window.addEventListener("scroll",function (event) {
 	//
 
 
-	console.log(scrollTop);
+	//console.log(scrollTop);
 });
 
 

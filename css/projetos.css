@@ -33,7 +33,9 @@
     background: url("../img/p2.png") no-repeat center;
     background-size: cover;
 }
-
+.menu-aceso{
+    font-weight: bold;
+}
 .projetinhos:hover{
     cursor: url(../img/cursor-click.png) 2 1, auto ;
    animation: projetinhos-animation 0.5s forwards;
