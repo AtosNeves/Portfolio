@@ -71,9 +71,9 @@ function redirectChallenge1(event){
 	location.href ="https://atosneves.github.io/Encryptador/";
 }
 function redirectHackerRank(event){
-	location.href ="https://github.com/AtosNeves/Beecrowd";
+	location.href ="https://github.com/AtosNeves/HackerRank";
 }
 
 function redirectUri(event){
-	location.href ="https://github.com/AtosNeves/HackerRank";
+	location.href ="https://github.com/AtosNeves/Beecrowd";
 }
